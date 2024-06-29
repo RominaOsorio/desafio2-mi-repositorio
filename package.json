@@ -1,0 +1,25 @@
+{
+  "name": "desafio2_mi_repositorio",
+  "version": "1.0.0",
+  "description": "Desafio 2 repositorio con node y express",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Romina Osorio",
+  "license": "ISC",
+  "eslintConfig": {
+    "extends":[
+      "./node_modules/standard/eslintrc.json"
+    ]
+  },
+  "scripts": {
+    "dev": "node --watch index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "standard": "^17.1.0"
+  }
+}
